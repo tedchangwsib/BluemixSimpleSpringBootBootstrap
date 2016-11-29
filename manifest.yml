@@ -1,8 +1,8 @@
 applications:
- - name: pas-springboot-bootstrap
+ - name: tedchangwsib-springboot-bootstrap
    memory: 350M
    path: ./target/BluemixDemoApplication-0.0.1-SNAPSHOT.jar
    instances: 1
-   host: pas-springboot-bootstrap
+   host: tedchangwsib-springboot-bootstrap
    buildpack: java_buildpack
    domain: mybluemix.net
