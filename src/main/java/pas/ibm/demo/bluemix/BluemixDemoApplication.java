@@ -19,10 +19,10 @@ public class BluemixDemoApplication {
     @PostConstruct
     private void init()
     {
-        repository.save(new Employee("pas", "apicella"));
-        repository.save(new Employee("lucia", "apicella"));
-        repository.save(new Employee("lucas", "apicella"));
-        repository.save(new Employee("siena", "apicella"));
+        repository.save(new Employee("ted", "apicella"));
+        repository.save(new Employee("thien", "apicella"));
+        repository.save(new Employee("luis", "apicella"));
+        repository.save(new Employee("yi", "apicella"));
         repository.save(new Employee("apples", "monash"));
     }
 }
